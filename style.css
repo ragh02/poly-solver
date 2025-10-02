@@ -1,0 +1,69 @@
+body {
+      font-family: inter, sans-serif;
+      background-color: #f0f0f0;
+    }
+button {
+    width:50%;
+    background-color: silver;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px;
+    border-color: black;
+    font-size: 15pt;
+    font-family: Inter;
+}
+select {
+    width:50%;
+    background-color: silver;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px;
+    border-color: black;
+    font-size: 15pt;
+    font-family: Inter;
+}
+input {
+    width:50%;
+    background-color: silver;
+    text-align:center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 0px;
+    border-color: black;
+    font-size: 15pt;
+    font-family: Inter;
+}
+button:active{
+    background-color:gray;
+}
+button:hover{
+    border-color: rgb(255, 0, 0);
+}
+.equationbox {
+    background-color:cornsilk;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items:center;
+    text-align: center;
+}
+
+.commandbox {
+    border: 2px solid black;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    align-items:center;
+    text-align: center;
+}
+.commandinfo {
+    padding-top: 0pt;
+    padding-bottom: 0pt
+
+}
+#graph {
+  width: 100%;
+  height: 1px; /* default small */
+  transition: height 0.5s ease;
+}
+
